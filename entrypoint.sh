@@ -14,7 +14,7 @@ if [ ! -e $CONFIG_FILE ]; then
 fi
 
 TEMP_DIR="/tmp"
-DB_PACKAGE="$TEMP_DIR/cmangos-classic-database-${CMANGOS_VERSION}.tar.gz"
+DB_PACKAGE="$TEMP_DIR/db-package/cmangos-classic-database-${CMANGOS_VERSION}.tar.gz"
 DB_DIR="$TEMP_DIR/database"
 
 if [ ! -d $DB_DIR ]; then
